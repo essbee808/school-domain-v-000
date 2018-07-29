@@ -3,6 +3,7 @@ class School
     @name = name
   end
   
-  def roster
+  def roster={}
+  end
 
 end
