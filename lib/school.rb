@@ -21,6 +21,7 @@ attr_accessor :name, :roster, :grade, :student
   end
   
   def sort
+    
     @roster.sort
   end
 end
