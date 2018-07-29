@@ -12,6 +12,7 @@ attr_accessor :name, :roster, :grade, :roster
     if @roster.has_key?(grade)
       @roster[grade] << "#{name}"
     else
+      @roster.merge!(:grade, name)
     #   @roster[grade] << "#{name}"
     # elsif @roster.has_key?(grade) == false
     #   @roster.merge!(:grade, "#{name}")
