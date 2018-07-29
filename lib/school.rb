@@ -15,4 +15,6 @@ attr_accessor :name, :roster, :grade, :student
     end
     @roster
   end
+  
+  
 end
