@@ -22,5 +22,5 @@ attr_accessor :name, :roster, :grade, :student
   
   def sort
     @roster[grade][student].sort
-  end
+  end.compact
 end
