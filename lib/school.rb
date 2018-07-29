@@ -19,4 +19,6 @@ attr_accessor :name, :roster, :grade, :student
   def grade(grade)
     @roster[grade]
   end
+  
+  def sort
 end
