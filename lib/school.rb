@@ -24,5 +24,6 @@ attr_accessor :name, :roster, :grade, :student
     @roster[grade].each_with_value do |value|
       value.sort
     end
+    @roster
   end
 end
