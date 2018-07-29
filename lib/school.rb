@@ -21,6 +21,6 @@ attr_accessor :name, :roster, :grade, :student
   end
   
   def sort
-    @roster[grade]
+    @roster[grade][student]
   end
 end
