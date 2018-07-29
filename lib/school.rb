@@ -9,9 +9,8 @@ attr_accessor :name, :roster, :grade, :student
   
   def add_student(student, grade)
     @roster[grade] = [student]
-  #   if @roster.has_key?(grade) && @roster.include?(student) == false
-  #     @roster[grade] << student
-  #   end
-  #   @roster
+    if @roster.has_key?(grade) && @roster.include?(student) == false
+      @roster[grade] << student
+    elsif
   end
 end
