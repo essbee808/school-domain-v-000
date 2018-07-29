@@ -11,7 +11,7 @@ attr_accessor :name, :roster, :grade, :roster
     hash = Hash.new
     if @roster.has_key?(grade) && @roster.include?(name) == false
       @roster[grade] << name
-      @roster
+      hash << @roster
     end
   end
 end
