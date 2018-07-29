@@ -11,7 +11,7 @@ attr_accessor :name, :roster, :grade, :roster
     @roster[grade] = []
     if @roster.has_key?(grade)
       @roster[grade] << name
-    elsif @roster.has_key?(grade) == false
+    elsif
       @roster[grade] = "#{name}"
     end
   end
