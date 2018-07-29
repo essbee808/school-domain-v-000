@@ -22,6 +22,7 @@ attr_accessor :name, :roster, :grade, :student
   
   def sort
     @roster[grade][student].each do |el|
+      
     end
   end
 end
