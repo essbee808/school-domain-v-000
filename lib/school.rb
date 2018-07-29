@@ -20,8 +20,7 @@ attr_accessor :name, :roster, :grade, :student
     @roster[grade]
   end
   
-  def sort(student)
-    if student
-    @roster.sort
+  def sort
+    @roster.each_with_index
   end
 end
