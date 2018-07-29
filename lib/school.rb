@@ -11,7 +11,7 @@ attr_accessor :name, :roster, :grade, :roster
     @roster[grade] = []
     if @roster.include?(grade)
       @roster[grade] << "#{name}"
-    elsif @roster.has_value?(grade) == false
+    elsif @roster.has_key?(grade) == false
       @roster.merge!(:grade, "#{name}")
     end
   end
