@@ -12,7 +12,7 @@ attr_accessor :name, :roster, :grade, :roster
     if @roster.include?(grade)
       @roster[grade] << "#{name}"
     elsif @roster.include?(grade) == false
-      @roster.merge!(:grade, )
+      @roster.merge!(:grade, "#{name}")
     end
   end
 end
