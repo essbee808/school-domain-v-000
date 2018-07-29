@@ -21,7 +21,7 @@ attr_accessor :name, :roster, :grade, :student
   end
   
   def sort(student)
-    if student.start_with?()
+    if student
     @roster.sort
   end
 end
