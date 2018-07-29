@@ -12,5 +12,6 @@ attr_accessor :name, :roster, :grade, :roster
     if @roster.has_key?(grade) && @roster.include?(student) == false
       @roster[grade] << student
     end
+    @roster
   end
 end
