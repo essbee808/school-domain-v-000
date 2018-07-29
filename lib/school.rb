@@ -14,5 +14,6 @@ attr_accessor :name, :roster, :grade, :roster
     elsif
       @roster[grade] = name
     end
+    @roster
   end
 end
