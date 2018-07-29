@@ -11,6 +11,5 @@ attr_accessor :name, :roster, :grade, :student
     @roster[grade] = [student]
     if @roster.has_key?(grade) && @roster.include?(student) == false
       @roster[grade] << student
-    elsif @roster.include?(student) == true && @roster
   end
 end
