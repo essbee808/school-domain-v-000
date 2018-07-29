@@ -8,10 +8,9 @@ attr_accessor :name, :roster, :grade, :roster
   end
   
   def add_student(name, grade)
-    hash = Hash.new
+    @roster[grade] = []
     if @roster.has_key?(grade) && @roster.include?(name) == false
       @roster[grade] << name
-      hash << @roster
     end
   end
 end
