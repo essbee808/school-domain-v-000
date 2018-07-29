@@ -11,6 +11,7 @@ attr_accessor :name, :roster, :grade, :roster
     @roster[grade] = []
     if @roster.include?(grade)
       @roster[grade] << "#{name}"
+    elsif @roster.include?(grade) == false
     end
   end
 end
