@@ -22,7 +22,7 @@ attr_accessor :name, :roster, :grade, :student
   
   def sort
     @roster.each_value do |key, value|
-      @roster[key] << value.sort
+      value.sort
     end
     @roster
   end
