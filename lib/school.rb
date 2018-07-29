@@ -17,5 +17,6 @@ attr_accessor :name, :roster, :grade, :student
   end
   
   def grade(grade)
+    @roster
   end
 end
