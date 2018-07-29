@@ -20,7 +20,8 @@ attr_accessor :name, :roster, :grade, :student
     @roster[grade]
   end
   
-  def sort()
+  def sort(student)
+    if student.start_with?()
     @roster.sort
   end
 end
