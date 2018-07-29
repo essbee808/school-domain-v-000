@@ -22,4 +22,6 @@ attr_accessor :name, :roster, :grade, :student
   
   def sort
     @roster[grade] << value.sort
+    @roster
+  end
 end
